@@ -5,7 +5,7 @@ function createWindow () {
         width: 800,
         height: 600,
     });
-    window.loadFile("index.html");
+    window.loadFile(`${__dirname}/../index.html`);
 }
 app.whenReady().then(() => {
     createWindow();
